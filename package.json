@@ -2,6 +2,11 @@
   "name": "backend-dev-tasks",
   "version": "1.0.0",
   "main": "index.ts",
+  "scripts":{
+    "dev":"nodemon src/index.ts",
+    "build":"tsc",
+    "start": "node dist/index.ts"
+  },
   "repository": "https://github.com/Tasnuva12/backend-dev-tasks.git",
   "author": "Tasnuva12 <tasnuvamehnaz@iut-dhaka.edu>",
   "license": "MIT",
